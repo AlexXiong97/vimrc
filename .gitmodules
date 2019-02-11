@@ -1,3 +1,6 @@
 [submodule "sources_non_forked/YouCompleteMe"]
 	path = sources_non_forked/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "my_plugins/editorconfig-vim"]
+	path = my_plugins/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
