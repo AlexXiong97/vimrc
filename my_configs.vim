@@ -4,8 +4,8 @@ set nocompatible
 set number
 
 " set theme color
-try 
-    colorscheme onedark 
+try
+    colorscheme onedark
 catch
 endtry
 
@@ -25,3 +25,7 @@ setlocal indentkeys+=0
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+" auto-format on buffer save, see https://github.com/Chiel92/vim-autoformat
+au BufWrite * :Autoformat
+" let g:autoformat_verbosemode=1
+let g:formatter_yapf_style = 'google'
