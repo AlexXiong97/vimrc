@@ -1,4 +1,7 @@
-" set mouse-=a 
+set nocompatible
+
+" linenumber
+set number
 
 " set theme color
 try 
@@ -15,4 +18,10 @@ set clipboard=unnamedplus
 
 " disable auto folding of nested component
 set nofoldenable    " disable folding"
+
+" typescript-vim config
+let g:typescript_indent_disable = 1
+setlocal indentkeys+=0
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
 
