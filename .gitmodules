@@ -1,6 +1,34 @@
 [submodule "sources_non_forked/YouCompleteMe"]
-	path = sources_non_forked/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe
+    path = sources_non_forked/YouCompleteMe
+    url = https://github.com/Valloric/YouCompleteMe
+[submodule "onedark.vim"]
+    path = sources_non_forked/onedark.vim
+    url = git@github.com:joshdick/onedark.vim.git
+[submodule "vim-isort"]
+    path = sources_non_forked/vim-isort
+    url = git@github.com:fisadev/vim-isort.git
 [submodule "my_plugins/editorconfig-vim"]
-	path = my_plugins/editorconfig-vim
-	url = git@github.com:editorconfig/editorconfig-vim.git
+    path = my_plugins/editorconfig-vim
+    url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "my_plugins/vimproc.vim"]
+    path = my_plugins/vimproc.vim
+    url = https://github.com/Shougo/vimproc.vim.git
+[submodule "my_plugins/tsuquyomi"]
+    path = my_plugins/tsuquyomi
+    url = https://github.com/Quramy/tsuquyomi.git
+[submodule "my_plugins/typescript-vim"]
+    path = my_plugins/typescript-vim
+    url = git@github.com:leafgarland/typescript-vim.git
+[submodule "vim-autoformat"]
+    path = my_plugins/vim-autoformat
+    url = git@github.com:Chiel92/vim-autoformat.git
+[submodule "vim-javascript"]
+    path = my_plugins/vim-javascript
+    url = git@github.com:pangloss/vim-javascript.git
+[submodule "vim-jsx"]
+    path = my_plugins/vim-jsx
+    url = git@github.com:mxw/vim-jsx.git
+[submodule "vim-solidity"]
+    path = my_plugins/vim-solidity
+    url = git@github.com:tomlion/vim-solidity.git
+
