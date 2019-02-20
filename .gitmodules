@@ -1,6 +1,3 @@
-[submodule "sources_non_forked/YouCompleteMe"]
-    path = sources_non_forked/YouCompleteMe
-    url = https://github.com/Valloric/YouCompleteMe
 [submodule "onedark.vim"]
     path = sources_non_forked/onedark.vim
     url = git@github.com:joshdick/onedark.vim.git
@@ -32,3 +29,9 @@
     path = my_plugins/vim-solidity
     url = git@github.com:tomlion/vim-solidity.git
 
+[submodule "my_plugins/vim-hug-neovim-rpc"]
+	path = my_plugins/vim-hug-neovim-rpc
+	url = git@github.com:roxma/vim-hug-neovim-rpc.git
+[submodule "my_plugins/nvim-yarp"]
+	path = my_plugins/nvim-yarp
+	url = git@github.com:roxma/nvim-yarp.git
